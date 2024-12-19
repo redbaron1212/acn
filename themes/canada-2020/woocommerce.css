@@ -1,0 +1,71 @@
+.woocommerce-product-gallery,
+.product_meta,
+.cart-empty,
+.return-to-shop,
+.shop_table .actions,
+.entry-title:before,
+#masthead,
+.cart_totals h2,
+.cart_totals .shop_table,
+.site-info,
+#order_review_heading,
+.related.products,
+.upsells.products,
+.woocommerce-breadcrumb,
+.product-quantity,
+.description_tab,
+.product_title,
+#tab-description h2 {
+	display: none !important;
+}
+.woocommerce-page .summary,
+.woocommerce-page .cart_totals,
+.woocommerce-page .col-1,
+.woocommerce-page .col-2,
+.woocommerce .summary,
+.woocommerce .cart_totals,
+.woocommerce .col-1,
+.woocommerce .col-2 {
+	float: none !important;
+	width: auto !important;
+}
+.single_add_to_cart_button {
+	background: #aa0000;
+}
+.entry-summary {
+	padding-top: 50px;
+}
+select#amount,
+select#montant {
+	padding: 6px 10px;
+	font-size: 20px;
+}
+.woocommerce-cart-form .product-remove a.remove {
+	background: transparent;
+}
+.woocommerce-cart-form .product-remove a.remove:hover {
+	background: #000;
+}
+
+.donation-radio {
+  margin: 0 -1px 20px 0;
+	padding: 5px 60px;
+	border: 1px solid #333;
+	display: inline-block;
+	text-align: center;
+	color: #000 !important;
+	text-decoration: none !important;
+}
+.donation-radio[href='#'] {
+	background: #A00;
+	color: #FFF !important;
+}
+
+@media (max-width: 550px) {
+	.variations_form .variations td.label {
+		display: none;
+	}
+	.variations_form .variations td.value select {
+		width: 100%;
+	}
+}
